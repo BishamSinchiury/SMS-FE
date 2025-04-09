@@ -1,0 +1,37 @@
+/* src/Components/Sidebar.css */
+.sidebar {
+    width: 4vw;
+    background-color: black;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar h3 {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .sidebar button {
+    background: none;
+    border: none;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-align: left;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.2s;
+  }
+  
+  .sidebar button:hover {
+    color: #007bff;
+  }
+  
+  .sidebar button.active {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
