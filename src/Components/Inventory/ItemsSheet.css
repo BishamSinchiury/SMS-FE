@@ -1,11 +1,8 @@
 .items-main-sheet {
-    position: fixed;
-    bottom: 5vh;
-    right: 1vw;
+    margin-left: 6vw;
     height: 100vh;
     width: 93vw;
     background-color: #2a2a2a;
-    border-radius: 15px;
     display: flex;
     flex-direction: column;
     z-index: 10;
@@ -15,7 +12,6 @@
     height: 20%;
     width: 100%;
     background-color: #3a3a3a;
-    border-radius: 15px 15px 0 0;
     display: flex;
 }
 
@@ -24,13 +20,13 @@
     width: 100%;
     display: flex;
     background-color: #333333;
-    border-radius: 0 0 15px 15px;
+
 }
 
 .items-list-div {
     height: 100%;
-    width: 65%;
-    background-color: #333333;
+    width: 62.8%;
+    background-color: #033308;
     overflow: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -41,7 +37,6 @@
     height: 100%;
     width: 35%;
     background-color: #333333;
-    border-radius: 0 0 15px 0;
     overflow: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -60,7 +55,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    border-radius: 15px 0 0 0;
     color: #ffffff;
 }
 
@@ -70,7 +64,6 @@
     align-items: center;
     height: 10%;
     width: 100%;
-    border-radius: 0 15px 0 0;
     background-color: #404040;
 }
 
@@ -78,7 +71,6 @@
     height: 40px;
     width: 250px;
     margin-right: 10px;
-    border-radius: 5px;
     padding: 0 10px;
     background-color: #555;
     border: none;
@@ -88,7 +80,6 @@
 .items-search button {
     height: 43px;
     width: 60px;
-    border-radius: 5px;
     background-color: #666;
     border: none;
     cursor: pointer;
@@ -163,7 +154,6 @@
 .add-item-btn {
     height: 43px;
     padding: 0 20px;
-    border-radius: 5px;
     background-color: #666;
     border: none;
     color: #fff;
@@ -177,7 +167,6 @@
 .loan-item-btn {
     height: 43px;
     padding: 0 20px;
-    border-radius: 5px;
     background-color: #596;
     border: none;
     color: #fff;
@@ -191,7 +180,6 @@
 .return-item-btn {
     height: 43px;
     padding: 0 20px;
-    border-radius: 5px;
     background-color: #965;
     border: none;
     color: #fff;
@@ -214,7 +202,6 @@
 .pagination button {
     height: 35px;
     padding: 0 15px;
-    border-radius: 5px;
     background-color: #666;
     border: none;
     color: #fff;
@@ -246,7 +233,6 @@
 .modal-content {
     background-color: #3a3a3a;
     padding: 20px;
-    border-radius: 10px;
     width: 400px;
     color: #fff;
     max-height: 80vh;
@@ -277,7 +263,6 @@
 .modal-content input[type="number"] {
     height: 40px;
     padding: 0 10px;
-    border-radius: 5px;
     background-color: #555;
     border: none;
     color: #fff;
@@ -315,7 +300,6 @@
 .modal-buttons button {
     height: 40px;
     padding: 0 20px;
-    border-radius: 5px;
     border: none;
     cursor: pointer;
 }
@@ -360,7 +344,6 @@
     padding: 8px 12px;
     font-size: 16px;
     border: 2px solid #ccc;
-    border-radius: 8px;
     background-color: #fff;
     color: #333;
     cursor: pointer;

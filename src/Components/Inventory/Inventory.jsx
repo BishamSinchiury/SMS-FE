@@ -246,7 +246,6 @@ function ItemsSheet() {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder='Search by name...'
               />
-              <button type='submit'>🔍</button>
             </form>
           </div>
           <table className="items-table">

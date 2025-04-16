@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import ItemsSheet from './Components/Inventory/ItemsSheet/ItemsSheet';
+import Inventory from './Components/Inventory/Inventory';
+import NavBar from './Components/NavBar/NavBar';
 
 
 function App() {
@@ -10,7 +12,12 @@ function App() {
 
   return (
     <>
-    <ItemsSheet />
+      <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Inventory />} />
+      </Routes>
+      </BrowserRouter>
     </>
   );
 }
