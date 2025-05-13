@@ -1,11 +1,14 @@
-import { useState, useEffect } from 'react'
+// src/Components/Tasks/TaskAssignment.jsx
 import './ItemsSheet.css'
-
-function ItemsSheet() {
-  return (
-    <>
-    </>
-  )
-}
-
-export default ItemsSheet
+function Inventory() {
+    return (
+     <>
+     <div className='inventory-div'>
+     <h1>Inventory</h1>
+     </div>
+     </>
+    );
+  }
+  
+  export default Inventory;
+  
